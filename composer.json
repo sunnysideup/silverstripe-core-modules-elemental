@@ -5,22 +5,19 @@
   "require": {
     "php": ">8.2",
     "silverstripe/recipe-cms": "^5.x-dev",
-    "brettt89/silverstripe-garbage-collector": "dev-master",
     "silverstripe/googlesitemaps": "^3",
     "silverstripe/mfa": "^5.0",
     "silverstripe/totp-authenticator": "^5.0",
     "silverstripe/login-forms": "^5",
+    "brettt89/silverstripe-garbage-collector": "dev-master",
     "sunnysideup/avoid-child-deletion": "dev-master",
     "sunnysideup/cleanup-tables": "dev-master",
     "sunnysideup/cms-niceties": "dev-master",
     "sunnysideup/cms_edit_link_field": "dev-master",
     "sunnysideup/dashboard-welcome-quicklinks": "dev-master",
-    "sunnysideup/dataobjectsorter": "dev-master",
-    "goldfinch/silverstripe-grouped-cms-menu": "^4",
     "sunnysideup/email_address_database_field": "dev-master",
     "sunnysideup/flush": "dev-master",
     "sunnysideup/flush-front-end": "dev-master",
-    "sunnysideup/metatags": "dev-master",
     "sunnysideup/permission_provider": "dev-master",
     "sunnysideup/phone_field": "dev-master",
     "sunnysideup/release": "dev-master",
@@ -32,10 +29,7 @@
     "sunnysideup/site-wide-search": "dev-master",
     "sunnysideup/test-email": "dev-master",
     "sunnysideup/version-pruner": "dev-master",
-    "sunnysideup/yes-no-any-filter": "dev-master",
-    "symbiote/silverstripe-gridfieldextensions": "^4",
-    "undefinedoffset/silverstripe-nocaptcha": "^2.1",
-    "undefinedoffset/sortablegridfield": "^2.0"
+    "sunnysideup/yes-no-any-filter": "dev-master"
   },
   "require-dev": {
     "sunnysideup/templateoverview": "dev-master",
@@ -47,6 +41,11 @@
     "oddnoc/silverstripe-artefactcleaner": "*"
   },
   "suggest": {
+    "sunnysideup/dataobjectsorter": "dev-master",
+    "symbiote/silverstripe-gridfieldextensions": "Extends SilverStripe's GridField with additional features, such as sortable rows and inline editing.",
+    "undefinedoffset/silverstripe-nocaptcha": "*",
+    "undefinedoffset/sortablegridfield": "*",
+    "sunnysideup/metatags": "dev-master",
     "silverstripe/lumberjack": "great for large site trees",
     "sunnysideup/test-email": "is email working?  Why not test it?",
     "sunnysideup/googleanalyticsbasics": "dev-master",
@@ -97,7 +96,6 @@
     "silverstripe/widgets": "Adds widget functionality to SilverStripe, allowing for the creation of reusable components.",
     "sminnee/tagmanager": "A tagging solution for SilverStripe, enabling efficient content organization and retrieval.",
     "symbiote/silverstripe-advancedworkflow": "Adds advanced workflow capabilities to SilverStripe, for detailed content publishing workflows.",
-    "symbiote/silverstripe-gridfieldextensions": "Extends SilverStripe's GridField with additional features, such as sortable rows and inline editing.",
     "symbiote/silverstripe-grouped-cms-menu": "Organizes the SilverStripe CMS menu into groups for better usability.",
     "symfony/process": "Provides a component for executing commands in sub-processes, enhancing server-side functionality.",
     "tractorcow/silverstripe-colorpicker": "A color picker field for SilverStripe, allowing for enhanced content customization.",
@@ -118,47 +116,8 @@
     "sunnysideup/silverstripe-ajax-select-field": "Introduces an AJAX-powered select field to SilverStripe, enabling dynamic dropdowns that load data on demand.",
     "sunnysideup/title_dataobject": "Allows for the automatic generation of titles for DataObjects in SilverStripe, streamlining content creation."
   },
-  "extra": {
-    "resources-dir": "_resources",
-    "expose": [
-      "themes/base/dist"
-    ],
-    "project-files-installed": [
-      "app/.htaccess",
-      "app/_config.php",
-      "app/_config/mimevalidator.yml",
-      "app/_config/mysite.yml",
-      "app/src/Page.php",
-      "app/src/PageController.php"
-    ],
-    "public-files-installed": [
-      ".htaccess",
-      "index.php",
-      "web.config"
-    ]
-  },
-  "config": {
-    "process-timeout": 600,
-    "preferred-install": {
-      "*": "source"
-    },
-    "allow-plugins": {
-      "composer/installers": true,
-      "silverstripe/recipe-plugin": true,
-      "silverstripe/vendor-plugin": true
-    }
-  },
   "prefer-stable": true,
   "minimum-stability": "dev",
-  "autoload": {
-    "psr-4": {
-      "MysiteNz\\Website\\": "app/src"
-    },
-    "files": [
-      "app/src/Page.php",
-      "app/src/PageController.php"
-    ]
-  },
   "prefer": "source",
   "repositories": [
     {
@@ -177,5 +136,27 @@
       "type": "vcs",
       "url": "https://codeberg.org/S-GrabhamMadden/silverstripe-csp-headers"
     }
-  ]
+  ],
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true,
+      "silverstripe/recipe-plugin": true,
+      "silverstripe/vendor-plugin": true
+    }
+  },
+  "extra": {
+    "project-files-installed": [
+      ".htaccess",
+      "app/.htaccess",
+      "app/_config/mimevalidator.yml",
+      "app/_config/mysite.yml",
+      "app/src/Page.php",
+      "app/src/PageController.php"
+    ],
+    "public-files-installed": [
+      ".htaccess",
+      "index.php",
+      "web.config"
+    ]
+  }
 }
