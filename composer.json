@@ -9,7 +9,6 @@
     "silverstripe/mfa": "^5.0",
     "silverstripe/totp-authenticator": "^5.0",
     "silverstripe/login-forms": "^5",
-    "brettt89/silverstripe-garbage-collector": "dev-master",
     "sunnysideup/avoid-child-deletion": "dev-master",
     "sunnysideup/cleanup-tables": "dev-master",
     "sunnysideup/cms-niceties": "dev-master",
