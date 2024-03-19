@@ -116,6 +116,14 @@
     "sunnysideup/silverstripe-ajax-select-field": "Introduces an AJAX-powered select field to SilverStripe, enabling dynamic dropdowns that load data on demand.",
     "sunnysideup/title_dataobject": "Allows for the automatic generation of titles for DataObjects in SilverStripe, streamlining content creation."
   },
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Nicolaas Francken",
+      "email": "modules@sunnysideup.co.nz",
+      "role": "lead developer"
+    }
+  ],
   "prefer-stable": true,
   "minimum-stability": "dev",
   "prefer": "source",
@@ -144,5 +152,4 @@
       "silverstripe/vendor-plugin": true
     }
   }
-
 }
