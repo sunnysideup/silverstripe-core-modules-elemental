@@ -3,8 +3,9 @@
   "type": "silverstripe-recipe",
   "description": "Core modules for Silverstripe CMS for Elemental",
   "require": {
-    "dnadesign/silverstripe-elemental-userforms": "^4.1",
-    "dnadesign/silverstripe-elemental-virtual": "^2.0",
+    "dnadesign/silverstripe-elemental": "^5",
+    "dnadesign/silverstripe-elemental-userforms": "^4",
+    "dnadesign/silverstripe-elemental-virtual": "^2",
     "nswdpc/silverstripe-elemental-modeladmin": "dev-master",
     "sunnysideup/elemental-edit-me-button": "^4.0",
     "sunnysideup/elemental-switch-tabs": "dev-master",
@@ -31,5 +32,19 @@
       "silverstripe/recipe-plugin": true,
       "silverstripe/vendor-plugin": true
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "nswdpc/silverstripe-elemental-modeladmin",
+        "version": "master",
+        "source": {
+          "url": "https://github.com/sunnysideup/silverstripe-elemental-modeladmin",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ]
 }
