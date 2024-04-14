@@ -7,7 +7,7 @@
     "dnadesign/silverstripe-elemental-userforms": "^4",
     "dnadesign/silverstripe-elemental-virtual": "^2",
     "nswdpc/silverstripe-elemental-modeladmin": "dev-master",
-    "sunnysideup/elemental-edit-me-button": "^4.0",
+    "sunnysideup/elemental-edit-me-button": "dev-master",
     "sunnysideup/elemental-switch-tabs": "dev-master",
     "sunnysideup/elemental-template": "dev-master"
   },
