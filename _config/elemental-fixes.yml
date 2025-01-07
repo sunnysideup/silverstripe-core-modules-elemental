@@ -1,6 +1,5 @@
 DNADesign\ElementalVirtual\Extensions\BaseElementExtension:
   defaults:
     AvailableGlobally: false
-
-DNADesign\Elemental\Models\BaseElement:
-  enable_title_in_template: true
+# DNADesign\Elemental\Models\BaseElement:
+#   enable_title_in_template: true
