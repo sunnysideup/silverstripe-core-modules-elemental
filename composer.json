@@ -7,7 +7,7 @@
     "dnadesign/silverstripe-elemental": "^5",
     "dnadesign/silverstripe-elemental-userforms": "^4",
     "dnadesign/silverstripe-elemental-virtual": "^2",
-    "nswdpc/silverstripe-elemental-modeladmin": "dev-master",
+    "sunnysideup/silverstripe-elemental-modeladmin": "dev-master",
     "sunnysideup/elemental-edit-me-button": "dev-master",
     "sunnysideup/elemental-switch-tabs": "dev-master",
     "sunnysideup/elemental-template": "dev-master"
@@ -33,19 +33,5 @@
       "silverstripe/recipe-plugin": true,
       "silverstripe/vendor-plugin": true
     }
-  },
-  "repositories": [
-    {
-      "type": "package",
-      "package": {
-        "name": "nswdpc/silverstripe-elemental-modeladmin",
-        "version": "master",
-        "source": {
-          "url": "https://github.com/sunnysideup/silverstripe-elemental-modeladmin",
-          "type": "git",
-          "reference": "master"
-        }
-      }
-    }
-  ]
+  }
 }
