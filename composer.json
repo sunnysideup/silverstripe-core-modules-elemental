@@ -10,7 +10,8 @@
     "sunnysideup/silverstripe-elemental-modeladmin": "dev-master",
     "sunnysideup/elemental-edit-me-button": "dev-master",
     "sunnysideup/elemental-switch-tabs": "dev-master",
-    "sunnysideup/elemental-template": "dev-master"
+    "sunnysideup/elemental-template": "dev-master",
+    "sunnysideup/preview-all-elements": "dev-main"
   },
   "require-dev": {},
   "suggest": {
