@@ -11,7 +11,8 @@
     "sunnysideup/elemental-edit-me-button": "dev-master",
     "sunnysideup/elemental-switch-tabs": "dev-master",
     "sunnysideup/elemental-template": "dev-master",
-    "sunnysideup/preview-all-elements": "dev-main"
+    "sunnysideup/preview-all-elements": "dev-main",
+    "maxime-rainville/anyfield": "^0.0"
   },
   "require-dev": {},
   "suggest": {
