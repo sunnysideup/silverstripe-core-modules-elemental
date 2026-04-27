@@ -6,17 +6,17 @@
     "dnadesign/silverstripe-elemental": "^5",
     "dnadesign/silverstripe-elemental-userforms": "^4",
     "dnadesign/silverstripe-elemental-virtual": "^2",
-    "maxime-rainville/anyfield": "^0.0",
+    "maxime-rainville/anyfield": "feature/cms-6",
     "sunnysideup/core-modules": "dev-main",
-    "sunnysideup/silverstripe-elemental-modeladmin": "dev-master",
-    "sunnysideup/elemental-edit-me-button": "dev-master",
-    "sunnysideup/elemental-switch-tabs": "dev-master",
-    "sunnysideup/elemental-template": "dev-master",
+    "sunnysideup/silverstripe-elemental-modeladmin": "dev-main",
+    "sunnysideup/elemental-edit-me-button": "dev-main",
+    "sunnysideup/elemental-switch-tabs": "dev-main",
+    "sunnysideup/elemental-template": "dev-main",
     "sunnysideup/preview-all-elements": "dev-main"
   },
   "require-dev": {},
   "suggest": {
-    "sunnysideup/core-modules": "dev-master"
+    "sunnysideup/core-modules": "dev-main"
   },
   "license": "BSD-3-Clause",
   "authors": [
