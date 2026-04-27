@@ -3,9 +3,9 @@
   "type": "silverstripe-recipe",
   "description": "Core modules for Silverstripe CMS for Elemental",
   "require": {
-    "dnadesign/silverstripe-elemental": "^5",
-    "dnadesign/silverstripe-elemental-userforms": "^4",
-    "dnadesign/silverstripe-elemental-virtual": "^2",
+    "dnadesign/silverstripe-elemental": "^6",
+    "dnadesign/silverstripe-elemental-userforms": "^5",
+    "dnadesign/silverstripe-elemental-virtual": "^3",
     "maxime-rainville/anyfield": "feature/cms-6",
     "sunnysideup/core-modules": "dev-main",
     "sunnysideup/silverstripe-elemental-modeladmin": "dev-main",
