@@ -5,7 +5,7 @@
   "require": {
     "dnadesign/silverstripe-elemental": "^6",
     "dnadesign/silverstripe-elemental-userforms": "^5",
-    "dnadesign/silverstripe-elemental-virtual": "^3",
+    "dnadesign/silverstripe-elemental-virtual": "dev-main",
     "maxime-rainville/anyfield": "dev-feature/cms-6",
     "sunnysideup/core-modules": "dev-main",
     "sunnysideup/silverstripe-elemental-modeladmin": "dev-main",
@@ -40,6 +40,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:silverstripe-terraformers/silverstripe-react.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:sunnysideup/silverstripe-elemental-virtual.git"
     }
   ]
 }
