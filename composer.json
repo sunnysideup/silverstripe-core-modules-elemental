@@ -12,7 +12,8 @@
     "sunnysideup/elemental-switch-tabs": "5.x-dev",
     "sunnysideup/elemental-template": "5.x-dev",
     "sunnysideup/preview-all-elements": "5.x-dev",
-    "maxime-rainville/anyfield": "^0.1"
+    "maxime-rainville/anyfield": "^0.1",
+    "sunnysideup/remove-orphaned-elementals": "5.x-dev"
   },
   "require-dev": {},
   "suggest": {
