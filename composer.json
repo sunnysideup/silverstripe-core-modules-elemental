@@ -18,7 +18,7 @@
   "require-dev": {},
   "suggest": {
     "sunnysideup/core-modules": "dev-main",
-    "sunnysideup/elementalarea-check"
+    "sunnysideup/elementalarea-check": "clean up database"
   },
   "license": "BSD-3-Clause",
   "authors": [
