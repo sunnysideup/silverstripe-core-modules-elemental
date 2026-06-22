@@ -17,7 +17,8 @@
   },
   "require-dev": {},
   "suggest": {
-    "sunnysideup/core-modules": "dev-main"
+    "sunnysideup/core-modules": "dev-main",
+    "sunnysideup/elementalarea-check"
   },
   "license": "BSD-3-Clause",
   "authors": [
