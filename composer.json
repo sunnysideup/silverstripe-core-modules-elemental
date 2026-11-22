@@ -3,21 +3,21 @@
     "type": "silverstripe-recipe",
     "description": "Core modules for Silverstripe CMS for Elemental",
     "require": {
-        "dnadesign/silverstripe-elemental": "^5",
-        "dnadesign/silverstripe-elemental-userforms": "^4",
-        "dnadesign/silverstripe-elemental-virtual": "^2",
+        "dnadesign/silverstripe-elemental": "^6.0",
+        "dnadesign/silverstripe-elemental-userforms": "^5.0",
         "sunnysideup/core-modules": "^5.0-dev",
         "sunnysideup/silverstripe-elemental-modeladmin": "^5.0-dev",
-        "sunnysideup/elemental-edit-me-button": "^5.0-dev",
-        "sunnysideup/elemental-switch-tabs": "^5.0-dev",
-        "sunnysideup/elemental-template": "^5.0-dev",
-        "sunnysideup/preview-all-elements": "^5.0-dev",
-        "maxime-rainville/anyfield": "^0.1",
-        "sunnysideup/remove-orphaned-elementals": "^5.0-dev"
+        "sunnysideup/elemental-edit-me-button": "^7.0",
+        "sunnysideup/elemental-switch-tabs": "^5.0",
+        "sunnysideup/elemental-template": "^2.0",
+        "sunnysideup/preview-all-elements": "^3.0",
+        "sunnysideup/remove-orphaned-elementals": "^2.0"
     },
     "require-dev": [],
     "suggest": {
-        "sunnysideup/core-modules": "dev-master"
+        "sunnysideup/core-modules": "dev-master",
+        "dnadesign/silverstripe-elemental-virtual": "Removed by the Silverstripe 6 upgrade, not compatible yet (no-compatible-stable-release). Was ^2 in require. Fix it by hand, then run: composer require dnadesign/silverstripe-elemental-virtual:^2",
+        "maxime-rainville/anyfield": "Removed by the Silverstripe 6 upgrade, not compatible yet (no-compatible-stable-release). Was ^0.1 in require. Fix it by hand, then run: composer require maxime-rainville/anyfield:^0.1"
     },
     "license": "BSD-3-Clause",
     "authors": [
