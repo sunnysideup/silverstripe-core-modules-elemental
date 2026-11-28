@@ -13,7 +13,7 @@
         "sunnysideup/preview-all-elements": "^3.0",
         "sunnysideup/remove-orphaned-elementals": "^2.0"
     },
-    "require-dev": [],
+    "require-dev": {},
     "suggest": {
         "sunnysideup/core-modules": "dev-master",
         "dnadesign/silverstripe-elemental-virtual": "Removed by the Silverstripe 6 upgrade, not compatible yet (no-compatible-stable-release). Was ^2 in require. Fix it by hand, then run: composer require dnadesign/silverstripe-elemental-virtual:^2",
