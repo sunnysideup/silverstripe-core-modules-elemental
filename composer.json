@@ -8,7 +8,7 @@
         "sunnysideup/core-modules": "dev-main",
         "sunnysideup/silverstripe-elemental-modeladmin": "dev-main",
         "sunnysideup/elemental-edit-me-button": "dev-main",
-        "sunnysideup/elemental-switch-tabs": "dev-main0",
+        "sunnysideup/elemental-switch-tabs": "dev-main",
         "sunnysideup/elemental-template": "dev-main",
         "sunnysideup/preview-all-elements": "dev-main",
         "sunnysideup/remove-orphaned-elementals": "dev-main",
